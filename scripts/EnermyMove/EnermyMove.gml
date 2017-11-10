@@ -82,7 +82,7 @@ if(sprite_index == sp_player_leftAtt
 || sprite_index == sp_player_backAtt){
     if(image_index > 1 && m_fired == false){ 
         var magicBullet; 
-		magicBullet = instance_create_layer(x , y , "Instances", player_bullet);
+		magicBullet = instance_create_layer(x , y , "Instances", enermy_bullet);
         var deltaX = 0;
         var deltaY = 0;
         switch(m_playerDirection)
@@ -122,3 +122,4 @@ if(sprite_index == spr_ysera_skill){
     }
 }
 */
+

@@ -13,7 +13,10 @@
         "c66a94db-1972-48b2-b02c-1431545909fe",
         "46fbde75-8491-4b32-aa72-9c173132d158",
         "7e5f786c-ee15-4bc8-829b-f9ff262331cb",
-        "0901454b-4e1b-4c7b-b5f1-e2d00d126784"
+        "0901454b-4e1b-4c7b-b5f1-e2d00d126784",
+        "22427e2b-7849-4183-b9da-2f9a8435e72d",
+        "2984397b-acc4-44ca-88a3-308b2937e1ce",
+        "88651a8f-e64b-4a37-b35f-7152216f3aa0"
     ],
     "filterType": "GMSprite",
     "folderName": "playersp",
