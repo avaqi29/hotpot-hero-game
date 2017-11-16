@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_chair2",
     "eventList": [
-        
+        {
+            "id": "f5afca29-2b03-471d-b09b-11f23cee45fc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "f24d2691-3c0e-4c65-8339-e5f05bc20f37"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
