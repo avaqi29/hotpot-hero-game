@@ -2,7 +2,7 @@
 
 
 // All lights are currently on walls, so find the wall tlater
-WallMap = layer_tilemap_get_id("Tiles_3");
+WallMap = layer_tilemap_get_id("Tiles_4");
 map_width = tilemap_get_width(WallMap);
 map_height= tilemap_get_height(WallMap);
 
@@ -18,7 +18,7 @@ for(var yy=0;yy<map_height;yy++){
 		var tile = tilemap_get(WallMap, xx,yy)&tile_index_mask;
 		
 		// is this a torch wall tile?
-		if( tile>=1 && tile <=12){
+		if( tile>=1 && tile <=250){
 			var pos = xx | yy<<16;				// remember tile location (in a single Uint32)
 			ds_list_add( light_list, pos );		// add it to our list
 		}

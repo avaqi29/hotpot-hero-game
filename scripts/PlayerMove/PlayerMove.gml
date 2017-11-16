@@ -2,7 +2,7 @@
 
 if(!m_isAttacking && !m_isInSkill)
 {
-    if(keyboard_check(ord("J")))
+    if(firebtn ==0)
     {
       m_isAttacking = true;
       switch(m_playerDirection)
@@ -30,27 +30,27 @@ if(!m_isAttacking && !m_isInSkill)
         //image_index = 0;
         m_fired = false;
     }
-    else if(keyboard_check(ord("A")))
+    else if(player.leftrun ==0)
     {
         phy_position_x = phy_position_x - 4;
         sprite_index = sp_player_leftWalk;
         //image_xscale = 1;
         m_playerDirection = PlayerDirection.LEFT;
     }
-    else if(keyboard_check(ord("D")))
+    else if(player.rightrun ==0)
     {
         phy_position_x = phy_position_x + 4;
         sprite_index = sp_player_rightWalk;    
         //image_xscale = -1;
         m_playerDirection = PlayerDirection.RIGHT;
     }
-    else if(keyboard_check(ord("W")))
+    else if(player.uprun ==0)
     {
         phy_position_y = phy_position_y - 4;
         sprite_index = sp_player_backWalk;    
         m_playerDirection = PlayerDirection.UP;
     }
-    else if(keyboard_check(ord("S")))
+    else if(player.downrun ==0)
     {
         phy_position_y = phy_position_y + 4;
         sprite_index = sp_player_frontWalk;

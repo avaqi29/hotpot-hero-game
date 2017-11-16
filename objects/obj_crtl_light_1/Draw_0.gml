@@ -1,7 +1,6 @@
 var aaa, bbb, i;
-aaa=100//Radius in pixel
+aaa=player.myradius;//Radius in pixel
 bbb=50//Precision. The higher the number, the more circles will be drawn(inside the radius) to make the gradient more fluid.
-
 
 surface_set_target(global.light)/*With this function you set all further drawing to
                                 the target surface rather than the screen and in this
@@ -16,6 +15,12 @@ draw_set_alpha(1/bbb)// The alpha value of 1 i simply divide by the number of ci
 for (i=0; i<=bbb; i+=1)//Now we're looping through all our circles. From the larger to the smaller.
 {
 draw_circle(player.x, player.y, (aaa-(aaa/bbb*i)), false)
+}
+
+
+for (i=0; i<=bbb; i+=1)//Now we're looping through all our circles. From the larger to the smaller.
+{
+draw_circle(obj_cat.x, obj_cat.y, (aaa-(aaa/bbb*i)), false)
 }
 
 draw_set_alpha(1)//Important line to reset the alpha back to 1.
