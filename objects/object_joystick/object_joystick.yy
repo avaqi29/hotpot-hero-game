@@ -5,7 +5,7 @@
     "name": "object_joystick",
     "eventList": [
         {
-            "id": "ceeacc7f-7ff9-4b4b-8528-dbf3b4bddb7d",
+            "id": "4df4abfe-8f51-45c4-ae37-636eb1f99ab3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "e2855d8d-4c21-4e63-971c-20debae9cef9"
         },
         {
-            "id": "34ccd969-76a8-409a-b16b-74e85dd28e5e",
+            "id": "a5497614-e559-4f1b-926d-12becb3238fd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "e2855d8d-4c21-4e63-971c-20debae9cef9"
         },
         {
-            "id": "0010d628-1828-40c3-9566-8d4699c276ef",
+            "id": "c7083866-939e-4361-8c27-c12481ab2779",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

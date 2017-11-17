@@ -5,7 +5,7 @@
     "name": "obj_aim",
     "eventList": [
         {
-            "id": "d0ff2835-8c4c-4934-93a4-26475e28c96f",
+            "id": "8650612b-4a39-46cc-aa27-44f43b9ec076",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

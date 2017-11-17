@@ -5,23 +5,23 @@
     "name": "obj_cat",
     "eventList": [
         {
-            "id": "04574f7a-89f9-4241-b0af-0297699777bc",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e87b48c7-8a89-4f4d-9836-061f81f60985"
-        },
-        {
-            "id": "1d3ed282-b173-40bb-8ffb-8db8e27e1492",
+            "id": "a0be0622-b2f9-4021-9b01-b790b28bc953",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "e87b48c7-8a89-4f4d-9836-061f81f60985"
+        },
+        {
+            "id": "437c94d6-e0c1-4f4b-85fa-fa0326878859",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "e87b48c7-8a89-4f4d-9836-061f81f60985"
         }
     ],
@@ -40,31 +40,31 @@
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "17e31933-ab3b-43f0-8fd9-98149718ed02",
+            "id": "2997f0d8-7d11-46ee-9af4-d0feeb55697a",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 5,
-            "y": 27
+            "x": 6,
+            "y": 24
         },
         {
-            "id": "eabec937-ffee-4ff2-a160-adfa37789586",
+            "id": "2afb63cb-d434-4a56-a47b-3c25d8a3b2c9",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 44,
-            "y": 27
+            "x": 42,
+            "y": 24
         },
         {
-            "id": "482ee4ca-9036-4a54-b41e-f802fb2d7df4",
+            "id": "d72b5338-7e69-432a-8c59-2d35c35f628e",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 44,
+            "x": 42,
             "y": 39
         },
         {
-            "id": "f3fada3f-5d0b-4047-87c6-75899a2dce80",
+            "id": "bae1c44a-2ba9-4720-94d8-105100d3f851",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 5,
+            "x": 6,
             "y": 39
         }
     ],

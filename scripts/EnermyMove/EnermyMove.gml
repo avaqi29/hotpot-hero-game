@@ -18,19 +18,19 @@ if(!m_isAttacking && !m_isInSkill)
 	if(!m_vertical){
     if(deltaX > mySpeed){
         phy_position_x += mySpeed;
-		sprite_index = sp_player_rightWalk;    
+		sprite_index = sp_enermy_rightWalk;    
         //image_xscale = -1;
         m_playerDirection = EnermyDirection.RIGHT;
     }
     else if(deltaX < -mySpeed){
         phy_position_x -= mySpeed;
-		sprite_index = sp_player_leftWalk;
+		sprite_index = sp_enermy_leftWalk;
         //image_xscale = 1;
         m_playerDirection = EnermyDirection.LEFT;
     }
     else{
         phy_position_x += deltaX;
-		sprite_index = sp_player_rightWalk;    
+		sprite_index = sp_enermy_rightWalk;    
         //image_xscale = -1;
         m_playerDirection = EnermyDirection.RIGHT;
     }
@@ -38,17 +38,17 @@ if(!m_isAttacking && !m_isInSkill)
 	else{
     if(deltaY > mySpeed){
         phy_position_y += mySpeed;
-		sprite_index = sp_player_frontWalk;
+		sprite_index = sp_enermy_frontWalk;
         m_playerDirection = EnermyDirection.DOWN;
     }
     else if(deltaY < -mySpeed){
         phy_position_y -= mySpeed;
-		sprite_index = sp_player_backWalk;    
+		sprite_index = sp_enermy_backWalk;    
         m_playerDirection = EnermyDirection.UP;
     }
     else{
         phy_position_y += deltaY;
-		sprite_index = sp_player_frontWalk;
+		sprite_index = sp_enermy_frontWalk;
         m_playerDirection = EnermyDirection.DOWN;
     }}
 	
@@ -58,16 +58,16 @@ if(!m_isAttacking && !m_isInSkill)
       switch(m_playerDirection)
       {
       case EnermyDirection.UP:
-        sprite_index = sp_player_backAtt;
+        sprite_index = sp_enermy_backAtt;
         break;
       case EnermyDirection.DOWN:
-        sprite_index = sp_player_frontAtt;
+        sprite_index = sp_enermy_frontAtt;
         break;
       case EnermyDirection.LEFT:
-        sprite_index = sp_player_leftAtt;
+        sprite_index = sp_enermy_leftAtt;
         break;
       case EnermyDirection.RIGHT:
-        sprite_index = sp_player_rightAtt;
+        sprite_index = sp_enermy_rightAtt;
         break;
       }  
       image_index = 0;
@@ -76,10 +76,10 @@ if(!m_isAttacking && !m_isInSkill)
     }
 }
 
-if(sprite_index == sp_player_leftAtt 
-|| sprite_index == sp_player_rightAtt
-|| sprite_index == sp_player_frontAtt
-|| sprite_index == sp_player_backAtt){
+if(sprite_index == sp_enermy_leftAtt 
+|| sprite_index == sp_enermy_rightAtt
+|| sprite_index == sp_enermy_frontAtt
+|| sprite_index == sp_enermy_backAtt){
     if(image_index > 1 && m_fired == false){ 
         var magicBullet; 
 		magicBullet = instance_create_layer(x , y , "Instances", enermy_bullet);
@@ -122,4 +122,5 @@ if(sprite_index == spr_ysera_skill){
     }
 }
 */
+
 

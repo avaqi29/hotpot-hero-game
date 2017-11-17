@@ -5,7 +5,7 @@
     "name": "oController_Lighting",
     "eventList": [
         {
-            "id": "09f915f8-4bb5-4f97-b74b-82d17ca198a3",
+            "id": "2622f4a2-1b55-4ebb-a8d1-d40d1471ca11",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "391e3320-b829-4076-a762-a7a1e122b628"
         },
         {
-            "id": "1c8df0af-2ca4-4734-95d9-ef8d4e4b65ee",
+            "id": "80b886fe-c37d-4d45-92a6-b7e8218ff180",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

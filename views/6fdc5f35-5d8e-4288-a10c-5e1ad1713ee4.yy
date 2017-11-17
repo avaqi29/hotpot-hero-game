@@ -13,7 +13,10 @@
         "d5451f6c-c277-4d76-81ed-f0d824627adb",
         "fb543dcb-eac6-43a0-81d4-a1e86300c5e5",
         "24c6c8f0-b60f-4782-b055-0b3b9a97d1c3",
-        "c444f703-41ab-45ce-99ad-565957df2f38"
+        "c444f703-41ab-45ce-99ad-565957df2f38",
+        "16983e2c-e44b-4bc3-8196-d1e0dab0a5de",
+        "23ee0ca7-58a8-448e-a7c2-57e47c362b8a",
+        "414636d5-6979-4d2a-a847-fbf1361534e4"
     ],
     "filterType": "GMSprite",
     "folderName": "spr_bg",
